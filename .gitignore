@@ -1,0 +1,24 @@
+# 开发工具配置
+.idea/
+
+# Python 虚拟环境
+.venv/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 测试与检查缓存
+.pytest_cache/
+.ruff_cache/
+
+# 本地环境配置
+.env
+.env.*
+!.env.example
+
+# 本地运行数据
+/data/
+/uploads/
+/logs/
+*.log
